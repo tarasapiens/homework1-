@@ -12,7 +12,6 @@ public class Homework1 {
 
         // Метод возвращает результат запроса, является ли эта строка «пустой»,
         // не содержащих никаких символов, кроме пробелов. вернулся true
-
         String channel = "     ";
         boolean result_b = channel.isBlank();
         System.out.println(result_b);
