@@ -16,7 +16,22 @@ public class Homework1 {
         boolean result_b = channel.isBlank();
         System.out.println(result_b);
 
+//возвращает символы в заданном промежутке
+        String color = "фиолетовый";
+        String result_c = color.substring(2, 5);
+        System.out.println(result_c);
 
+//возвращает первый найденный индекс начала вхождения строки. в данномслучае вернуд "5"
+        String song = "Солнечный круг, небо вокруг";
+        int result_d = song.indexOf("чный");
+        System.out.println(result_d);
+
+//Возвращает последний найденный индекс начала вхождения строки из параметров в исходной строке. вернуло "8"
+        String phrase = "Случайности не случайны";
+        int result_e = phrase.lastIndexOf("сти");
+        System.out.println(result_e);
+
+//
 
 
     }
