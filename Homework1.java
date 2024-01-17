@@ -31,8 +31,49 @@ public class Homework1 {
         int result_e = phrase.lastIndexOf("сти");
         System.out.println(result_e);
 
-//
+//верхний регистр преобразует в нижний
+        String region = "ТАТАРСТАН";
+        String result_f = region.toLowerCase();
+        System.out.println(result_f);
 
+ //нижний регистр преобразует в верхний
+        String flower = "драцена";
+        String result_g = flower.toUpperCase();
+        System.out.println(result_g);
 
+//заменет сивмолы в строке
+        String adjective = "обороноспособный";
+        String result_h = adjective.replace("рон", "бно");
+        System.out.println(result_h);
+
+//Проверяет, начинается ли строка с указанного символа. здесь возврат false
+        String building = "кирпичное";
+        boolean result_i = building.startsWith("ю");
+        System.out.println(result_i);
+
+//Проверяет, заканчивается ли строка с указанного символа. здесь возврат true
+        String car = "Ауди";
+        boolean result_j = car.endsWith("и");
+        System.out.println(result_j);
+
+//на заданное число складывает строку. возврат soccersoccersoccersoccersoccersoccersoccer
+        String ball = "soccer";
+        String result_k = ball.repeat(7);
+        System.out.println(result_k);
+
+//определяет, есть ли указанная последовательность символов в строке. возврат true
+        String watch = "Casio";
+        boolean result_l = watch.contains("sio");
+        System.out.println(result_l);
+
+//присоединяет заданные сивмолы в конец строки. вывод: North Americaamer
+        String continent = "North America";
+        String result_m = continent.concat("amer");
+        System.out.println(result_m);
+
+//устраняет пробелы в начале и в конце строки
+        String comp = " Asus ";
+        String result_n = comp.trim();
+        System.out.println(result_n);
     }
 }
